@@ -11,7 +11,6 @@ import "aos/dist/aos.css"
 function Contact() {
     useEffect(() => {
         AOS.init()
-        console.log(window.innerWidth + ' x ' + window.innerHeight);
 
     }, [])
 

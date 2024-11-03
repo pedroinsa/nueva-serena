@@ -5,6 +5,7 @@ import "./Footer.css"
 export default function Footer() {
     const handleWhatsAppClick = () => {
         window.open(import.meta.env.VITE_APP_WHATSAPP_NUMBER, "_blank")
+         console.log(import.meta.env.VITE_APP_WHATSAPP_NUMBER)
     };
 
     return (

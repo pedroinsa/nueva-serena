@@ -13,7 +13,7 @@ export default function Landing() {
     }, [])
     const { t } = useTranslation()
     return (
-        <div className="flex w-full justify-center home-back top-home home-heigth">
+        <div className="flex w-full justify-center home-back top-home home-height">
             <div className="flex contain sm:flex-row rounded-lg mb-5 landing-card md:w-4/5 lg:w-3/5 items-center"
                 data-aos={window.innerWidth <= 639 ? 'fade-right' : 'fade-up'} data-aos-offset="00" data-aos-duration="1000"  >
                 <div className="flex flex-col">
