@@ -1,5 +1,4 @@
 import Distance from "../Distance/Distance"
-import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Map.css"
 
