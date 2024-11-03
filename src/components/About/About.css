@@ -1,0 +1,21 @@
+.about {
+    /* background-color: rgb(29, 27, 27);; */
+    background-image: url("./../../assets/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.about-top {
+    padding-top: 25%;
+
+}
+
+/* min-width: 640px*/
+
+@media(min-width: 40rem) {
+
+    .about-top {
+        padding-top: 10%;
+    }
+}

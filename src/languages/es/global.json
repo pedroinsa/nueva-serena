@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre nosotros",
+        "contact": "Contacto"
+    },
+    "home": {
+        "distance": {
+            "title": "Distancias",
+            "airport": "Aeropuerto"
+        },
+        "landing": {
+            "text": "¡Bienvenidos! Recorran nuestro sitio web y conozcan nuestras instalaciones. Les ofrecemos servicio de calidad para que disfruten la estadia en San Carlos de Bariloche.",
+            "amenities": "Comodidades",
+            "square": {
+                "smoke-free": "Libre de humo",
+                "parking": "Parking",
+                "beach": "Playa cercana"
+            }
+        },
+        "map": {
+            "title": "Conoce nuestra ubicación",
+            "text": "Nuestras instalaciones se encuentran en un confortable barrio. A lo largo de la avenida Bustillo hay un supermercado y varias tiendas para que obtengan todo lo que estan buscando. Si no tienen auto, el transporte local posee colectivos con buena frecuencia que recorren la avenida. Además, la playa más cercana se ubica a 2 cuadras."
+        },
+        "booking": {
+            "title": "¡Tu reserva a tan solo un click!",
+            "text": "En Booking pueden acceder a toda la información sobre reservas y fechas disponibles. Además, pueden dejar reseñas y ver las calificaciones brindadas por otros clientes.",
+            "button": "Ir a Booking"
+        }
+    },
+    "about": {
+        "header": {
+            "title": "Acerca de Nueva Serena",
+            "text": "Nueva Serena queda en el kilometro 13 de la ciudad de San Carlos de Bariloche, sobre la Avenida Bustillo, la cual conecta el complejo con el centro la localidad."
+        },
+        "kitchenAndBathroom": {
+            "title": "Cocina y baño",
+            "kitchen": "Cocina completa y equipada con microondas. Si les gusta cocinar, ¡disfruten de la comodidad de comer delicioso en casa!",
+            "bath": "El baño es muy cómodo y cuenta con todas las características básicas y necesarias para una confortable experiencia."
+        },
+        "bedrooms": {
+            "title": "Dormitorios",
+            "text-sm": "Los dormitorios cuentan con cama matrimonial y también de estilo cuchetas. Las habitaciones tienen ventanas y poseen buena iluminación. El cuarto principal además dispone de televisor con cable. Las camas son sumamente cómodas.",
+            "text-lg-one": "Las habitaciones cuentan con cama matrimonial y de estilo cucheta. Tienen ventanas y poseen buena iluminación.",
+            "text-lg-two": "El cuarto principal además dispone de televisor con cable. Las camas son sumamente confortables y de calidad.",
+            "text-lg-three": "¡Podrán dormir comódamente y descansar para recargar energías y seguir disfrutando de su experiencia en Bariloche!"
+        },
+        "living": {
+            "title": "Living",
+            "text-sm": "El living comedor es un espacio cómodo, decorado y amplio. Posee ventanas por lo cual hay una excelente iluminación y gran ventilación. Su experiencia será agradable al contar con muebles acogedores, televisión y sillón confortable.",
+            "text-lg-one": "El living es cómodo, decorado y amplio. Posee ventanas por lo cual hay una excelente iluminación y ventilación.",
+            "text-lg-two": "Les resultará agradable contar con muebles acogedores, televisión y sillón confortable. También dispone de estufa.",
+            "text-lg-three": "El lugar cuenta con todas las comodidades que necesita para sentirse como en su propia casa ¡Disfruten su estadia!"
+        }
+    },
+    "contact": {
+        "form": {
+            "title": "Contacto por",
+            "text-large": "Si desean conocer más sobre nosotros o tienen alguna inquietud, no duden en consultarnos. Les responderemos a la brevedad.",
+            "text-short": "Si desean conocer más sobre nosotros, ¡contáctenos!",
+            "name": "Tu nombre",
+            "email": "Tu email",
+            "message": "Tu mensaje",
+            "button": " Enviar",
+            "error-name": "Debe ingresar un nombre",
+            "error-email": "Debe ingresar un email válido",
+            "error-message": "Debe ingresar un mensaje",
+            "alert-title": "¡Felicitaciones!",
+            "alert-text": "Tu mail fue enviado",
+            "alert-button": "Aceptar"
+        }
+    },
+    "error": "Ha ocurrido un error. Vuelvan al sitio web."
+}

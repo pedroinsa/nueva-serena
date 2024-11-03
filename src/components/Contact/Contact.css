@@ -1,0 +1,285 @@
+.top-contact {
+    padding-top: 30%;
+}
+
+.contact-form {
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/serenalago.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 1rem;
+
+
+}
+
+.contact-form-card {
+    background-color: rgba(12, 1, 1, 0.9);
+    margin-top: 4%;
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+    height: auto;
+
+}
+
+.error-form {
+    width: 80%;
+    border-radius: 5%;
+}
+
+.field-group {
+    margin-bottom: 1.875rem;
+    height: 3.875rem;
+}
+
+
+.button-form {
+    background-color: rgb(59, 130, 246);
+    width: 25%;
+}
+
+.button-form:disabled {
+    background-color: rgba(59, 130, 246, 0.2);
+    text-decoration: dashed;
+}
+
+
+input:focus {
+    outline: none;
+    border: 0.125rem solid rgb(59, 130, 246)
+}
+
+textarea:focus {
+    outline: none;
+    border: 0.125rem, solid rgb(59, 130, 246);
+}
+
+
+.custom-swal-popup {
+    border-radius: 0.625rem;
+}
+
+.custom-swal-icon {
+    border-color: white;
+}
+
+.custom-swal-title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.custom-swal-button {
+    border-radius: 0.31.25rem;
+    color: #00cfff;
+}
+
+
+/* min width 368px */
+@media (min-width: 23rem) {
+    .contact-form-card {
+        border-radius: 1rem;
+
+    }
+
+}
+
+/*max width 399px      min height 688*/
+@media(max-width: 24.9375rem) and (min-height: 43rem) {
+    .contact-form-card {
+        height: 70vh;
+    }
+}
+/* max width 399px  min height 1200*/
+@media(max-width: 24.9375rem) and (min-height: 75rem){
+     .top-contact{
+        padding-top: 10rem;
+     }
+    .contact-form{
+     height: 90vh;
+    }
+    .contact-form-card{
+        height: 70%
+    }
+}
+
+/*min width 400px min height 704px*/
+@media(min-width: 25rem) and (min-height: 44rem) {
+    .contact-form-card {
+        height: 73vh;
+    }
+}
+
+/*min width 400px min height 1200*/
+@media(min-width: 25rem) and (max-width:29.9375rem) and (min-height: 75rem) {
+    .contact-form {
+        height: 90vh;
+    }
+
+    .contact-form-card {
+        height: 70%;
+    }
+}
+
+/*min-width 480px*/
+@media (min-width:30rem) {
+    .top-contact {
+        padding-top: 20%;
+    }
+
+    .field-group {
+        height: 2.5rem;
+    }
+}
+
+/*min width 480 min 112px*/
+@media(min-width: 30rem) and (min-height: 7rem) {
+    .contact-form-card {
+        height: 50%
+    }
+}
+
+/*min width 480 min height 592px*/
+@media(min-width: 30rem) and (min-height: 37rem) {
+    .contact-form-card {
+        height: 75vh;
+
+    }
+
+}
+/*min width 480px min height 912*/
+@media(min-width: 30rem) and (min-height: 57rem){
+    .top-contact{
+        padding-top: 40%;
+    }
+    .contact-form{
+        height: 90vh;
+    
+    }
+    .contact-form-card{
+        height: 70%;
+    
+        
+    }
+}
+
+/* min -width 640px*/
+@media(min-width: 40rem) {
+    .top-contact {
+        padding-top: 15%;
+    }
+}
+/*min width 640  min height 912*/
+@media(min-width: 40rem) and (min-height: 57rem){
+    .top-contact{
+        padding-top: 40%;
+    }
+}
+
+
+/*min width 768 px     min height 912*/
+@media(min-width: 48rem) and (min-height: 57rem) {
+    .contact-form-card{
+        height: 80%;
+    }
+    .top-contact{
+        padding-top: 18%;
+    }
+}
+
+/*min width 768 px     min height 1088*/
+@media(min-width: 48rem) and (min-height: 68rem) {
+    .contact-form-card{
+        height: 60%;
+    }
+
+}
+
+
+/* min-width: 1024px   min-height: 600px*/
+@media(min-width: 64rem) and (min-height: 37.5rem) {
+
+
+    .top-contact {
+        padding-top: 10%;
+    }
+
+
+}
+
+/* min-width 1024px   min height 1088x*/
+@media(min-width: 64rem) and (min-height: 68rem) {
+    .top-contact{
+        padding-top: 20%;
+    }
+}
+
+
+/* min-width 1024px   min height 1300px*/
+@media(min-width: 64rem) and (min-height: 81.25rem) {
+
+
+
+    .top-contact {
+        padding-top: 15%;
+    }
+}
+
+/* min-width: 1280px*/
+@media(min-width: 80rem) {
+    .top-contact {
+        padding-top: 5%;
+    }
+
+    .field-group {
+        height: 2.8rem;
+    }
+}
+/*min width 1280 min height 600*/
+@media(min-width: 80rem) and (min-height: 40rem){
+    .top-contact{
+       padding-top: 2%;
+    }
+}
+/* min height 1280 min height768*/
+@media(min-width: 80rem) and (min-height: 48rem){
+    .contact-form-card{
+        height: 78vh;
+    }
+}
+
+/*min width 1280  min height 1088*/
+@media(min-width:80rem) and (min-height:68rem){
+    .top-contact{
+        padding-top: 10%;
+    }
+    .contact-form-card{
+        height: 70%;
+    }
+    .contact-form{
+        height: 90vh
+    }
+}
+
+/* min-width: 1536px*/
+@media(min-width: 96rem) {
+
+    .top-contact {
+        padding-top: 5%;
+    }
+
+    .field-group {
+        height: 3.2rem;
+    }
+}
+/*min width 1536px min height 912px*/
+@media(min-width: 96rem) and (min-height: 57rem){
+    .contact-form-card{
+        height: 70vh;
+    }
+}
+/*min width 1536px min height 1088px*/
+@media(min-width: 96rem) and (min-height: 68rem){
+    .contact-form-card{
+        height: 64%;
+    }
+}

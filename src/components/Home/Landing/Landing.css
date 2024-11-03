@@ -1,0 +1,75 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cuadrado {
+    width: 20%;
+    height: 5rem;
+    border: 0.125rem solid black;
+    background-color: rgb(203 213 225);
+    border-radius: 1.25rem;
+    color: black;
+    margin: 0.1875rem;
+}
+
+.top-home {
+    padding-top: 35%;
+}
+
+.home-back {
+    background: url("../../../assets//entrada.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(203 213 225);
+}
+
+.landing-card {
+    background-color: rgba(12, 1, 1, 0.7);
+    color: rgb(203 213 225);
+    padding: 0.625rem;
+
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-snow-rounded {
+    border-radius: 0.625rem;
+    width: 80%;
+    max-height: 12.5rem;
+    margin-top: 0.625rem;
+}
+
+
+@media(min-width: 23rem) {
+    .landing-card {
+        margin-top: 1.25rem;
+    }
+}
+
+@media(min-width: 30rem) {
+    .image-snow-rounded {
+        width: 60%
+    }
+}
+
+@media(min-width: 40rem) {
+
+    .top-home {
+        padding-top: 10%;
+    }
+
+    .cuadrado {
+        width: 5rem;
+    }
+
+    .image-snow-rounded {
+        max-height: 100%;
+    }
+
+}

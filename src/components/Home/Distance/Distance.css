@@ -1,0 +1,32 @@
+.distance-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.distance-box {
+    height: 100%;
+    color: rgb(203 213 225);
+    background-color: rgb(29, 27, 27);
+    ;
+}
+
+.km {
+
+    font-size: 1, 5625rem
+}
+
+.km:hover {
+    color: rgb(5, 145, 215);
+
+}
+
+
+
+
+@media(min-width: 40rem) {
+
+    .km {
+        font-size: 2.8125rem;
+    }
+}

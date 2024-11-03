@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About us",
+        "contact": "Contact"
+    },
+    "home": {
+        "distance": {
+            "title": "Distances",
+            "airport": "Airport"
+        },
+        "landing": {
+            "text": "Welcome! Explore our website and discover our facilities. We provide quality service to ensure you enjoy every moment of your stay in San Carlos de Bariloche.",
+            "amenities": "Amenities",
+            "square": {
+                "smoke-free": "Smoke-free",
+                "parking": "Parking",
+                "beach": "Near beach"
+            }
+        },
+        "map": {
+            "title": "Discover our location",
+            "text": "Our facilities are located in a comfortable neighborhood. Along Bustillo Avenue there is a supermarket and several stores, so you can get everything you need. If you don't have a car, public transportation offers buses with really good frequency along the avenue. Additionally, the nearest beach is just two blocks away."
+        },
+        "booking": {
+            "title": "Your reservation is just a click away!",
+            "text": "On Booking you can access all the information about reservations and available dates. Besides, you can write reviews and see the ratings provided by other customers.",
+            "button": "Go to Booking"
+        }
+    },
+    "about": {
+        "header": {
+            "title": "About Nueva Serena",
+            "text": "Nueva Serena is located at kilometer 13 of the city of San Carlos de Bariloche, on Bustillo Avenue, conveniently  connecting the complex to the town center."
+        },
+        "kitchenAndBathroom": {
+            "title": "Kitchen and bathroom",
+            "kitchen": "Fully equipped kitchen with a microwave. If you like cooking, enjoy the comfort of eating delicious meals at home!",
+            "bath": "The bathroom is very comfortable and includes all the essential features needed for a really pleasant experience."
+        },
+        "bedrooms": {
+            "title": "Bedrooms",
+            "text-sm": "The bedrooms offer a combination of double beds and bunk beds. The rooms have windows that allow plenty of natural light and are well-lit. The main bedroom also includes a TV with cable. The beds are extremely comfortable.",
+            "text-lg-one": "The bedrooms have double beds and bunk beds. The rooms have large windows that allow plenty of natural light.",
+            "text-lg-two": "The main room includes a TV with cable for entertainment. Enjoy our beds, which are extremely comfortable.",
+            "text-lg-three": "You will be able to sleep soundly and recharge your energy to keep enjoying your experience in Bariloche!"
+        },
+        "living": {
+            "title": "Living room",
+            "text-sm": "The living-dining room is a comfortable and spacious area. It is well-decorated. Windows provide excellent lighting and great ventilation. Your experience will be enjoyable with cozy furniture, a television, and a relaxing couch.",
+            "text-lg-one": "The living-dining room is a spacious and comfortable area. Large windows provide great lighting and ventilation.",
+            "text-lg-two": "You will find it pleasant to have cozy furniture, a television, and a comfortable couch. It also has a heater.",
+            "text-lg-three": "If you're looking to relax, the room has all the amenities you need to feel at home. Please, enjoy your stay!"
+        }
+    },
+    "contact": {
+        "form": {
+            "title": "Contact by",
+            "text-large": "If you want to know more about us, if have any questions, please feel free to contact us. We will respond you as soon as possible.",
+            "text-short": "If you want to know more about us, please contact us!",
+            "name": "Your name",
+            "email": "Your email",
+            "message": "Your message",
+            "button": "Send",
+            "error-name": "You must enter a name",
+            "error-email": "You must enter a valid email address",
+            "error-message": "You must enter a message",
+            "alert-title": "Congrats!",
+            "alert-text": "Your mail was sent",
+            "alert-button": "Accept"
+        }
+    },
+    "error": "Something went wrong. You can return to the website."
+}

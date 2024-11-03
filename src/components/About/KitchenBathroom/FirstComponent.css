@@ -1,0 +1,103 @@
+k .first-component {
+    height: 90vh;
+
+}
+
+.first-component-card {
+    background-color: rgba(12, 1, 1, 0.9);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.625rem;
+    height: 90%;
+    box-shadow: 0rem 0.25rem 0.9375ren rgba(0, 0, 0, 0.4);
+    border-radius: 4%;
+    width: 100%;
+
+
+}
+
+.first-component-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 74%;
+
+
+}
+
+.first-component-images img {
+
+    width: 100%;
+    height: 14.375rem;
+    border: 0.125rem solid white;
+    box-shadow: 1.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.975);
+    transition: transform 0.3s ease;
+    border-radius: 2%;
+}
+
+.first-component-images img:hover {
+    transform: scale(1.1) translateY(-0.625rem);
+}
+
+.div-images {
+    width: 100%;
+    margin-bottom: 0.625rem;
+}
+/* .right-p{
+    box-shadow: -6px 0 0 0.5px rgba(5, 145, 215, 0.8);
+}
+.left-p{
+    box-shadow: 6px 0 0 0.5px rgba(5, 145, 215, 0.8);
+} */
+
+.graph {
+    width: 100%;
+    color: white;
+    padding: 0.625rem;
+   
+}
+
+.define-text {
+    color: white;
+    margin-top: 0.625rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.define-text:hover {
+    color: lightblue;
+    transform: scale(1.03);
+    transition: color 0.3s ease;
+}
+.slider-text-md {
+    box-shadow: 0 0 1.5rem rgb(5, 145, 215);
+    
+}
+/*min width 480  max height 480 */
+@media(min-width: 30rem) and (max-height: 30rem){
+    .first-component{
+        margin-top: 4rem;
+    }
+}
+
+/*min-width: 640*/
+@media(min-width: 40rem) {
+    .first-component {}
+
+    .first-component-images {
+        flex-direction: row;
+        width: 100%
+    }
+
+    /**/
+
+
+    .first-component-images img {
+        width: 75%;
+        height: 21.25rem;
+    }
+
+    .graph {
+        width: 75%;
+    }
+}

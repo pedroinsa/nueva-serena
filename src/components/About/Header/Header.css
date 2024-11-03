@@ -1,0 +1,73 @@
+.about-header {
+    height: 80vh;
+
+    color: white;
+}
+
+.header-card {
+    background-color: rgba(12, 1, 1, 0.9);
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-image {
+    width: 70%;
+
+}
+
+.header-card-sub {
+    width: 93%;
+}
+
+@media(min-height: 64rem) {
+    .about-header {
+        height: 40vh;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+/*min width 640*/
+@media(min-width: 40rem) {
+
+    .header-card img {
+        margin-bottom: 0;
+    }
+
+
+}
+
+/*min width 800  min height 672  max height 1024*/
+@media(min-width:50rem) and (max-width: 63.9375rem) and (min-height: 42rem) and (max-height: 64rem) {
+    .about-header {
+        height: 45vh;
+    }
+}
+
+/* min width 1024 px min height 128px*/
+@media(min-width: 64rem) and (max-height: 25rem) {
+    .about-header {
+        height: 100%;
+        margin-bottom: 4rem;
+    }
+}
+
+@media(min-width:64rem) and (min-height:25.1rem) {
+    .about-header {
+        margin-bottom: 0;
+    }
+}
+
+/*min width 1024 min height 1296*/
+@media(min-width: 64rem) and (min-height: 81rem) {
+    .header-card {
+        height: 40% !important;
+    }
+
+    .about-header {
+        height: 40vh;
+        margin-bottom: 0;
+    }
+}
